@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="slider/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Слайдер на JS</h1>
+    <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__track">
+          <div class="slider__item">
+            <div class="item-content">1</div>
+          </div>
+          <div class="slider__item">
+            <div class="item-content">2</div>
+          </div>
+          <div class="slider__item">
+            <div class="item-content">3</div>
+          </div>
+          <div class="slider__item">
+            <div class="item-content">4</div>
+          </div>
+          <div class="slider__item">
+            <div class="item-content">5</div>
+          </div>
+          <div class="slider__item">
+            <div class="item-content">6</div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="slider__btn slider__btn_prev"></button>
+      <button type="button" class="slider__btn slider__btn_next"></button>
+      <ul class="dots">
+        <li class="dots__item" data-dot-index="1"></li>
+        <li class="dots__item" data-dot-index="2"></li>
+        <li class="dots__item" data-dot-index="3"></li>
+        <li class="dots__item" data-dot-index="4"></li>
+        <li class="dots__item" data-dot-index="5"></li>
+        <li class="dots__item" data-dot-index="6"></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="slider/js/script.js"></script>
+</body>
+</html>

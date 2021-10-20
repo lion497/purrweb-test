@@ -1,0 +1,240 @@
+@media (max-width: 1440px) {
+  .container {
+    max-width: 990px;
+  }
+
+  .subtitle {
+    font-size: 42px;
+    line-height: 54px;
+  }
+
+  .paragraph {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .floating-msg {
+    padding: 18px 50px 20px 50px;
+
+    &__btn {
+      padding: 12px 40px;
+    }
+  }
+
+  .intro {
+    &__title {
+      max-width: 530px;
+      font-size: 52px;
+      line-height: 58px;
+    }
+
+    &__text {
+      font-size: 17px;
+      line-height: 24px;
+    }
+
+    &__img img {
+      width: 300px;
+    }
+
+    &__subtitle {
+      font-size: 28px;
+      line-height: 31 px;
+    }
+
+    &__btns {
+      margin-right: 45px;
+    }
+  }
+
+  .member {
+    &__block {
+      padding: 55px 42px;
+    }
+
+    &__descr {
+      font-size: 24px;
+      line-height: 33px;
+    }
+
+    &__link {
+      font-size: 19px;
+      line-height: 28px;
+    }
+  }
+
+  .mission {
+    padding: 100px 0 280px 0;
+
+    &__img {
+      height: 400px;
+      left: -250%;
+    }
+  }
+
+  .scanner {
+    padding-top: 100px;
+
+    &__img {
+      width: 250px;
+    }
+
+    &__right {
+      margin-right: 40px;
+    }
+  }
+
+  .bi-tool {
+    padding: 100px 0;
+
+    &__img {
+      width: 600px;
+    }
+
+    &__text {
+      max-width: 350px;
+    }
+  }
+
+  .qr-code {
+    padding-top: 100px;
+    background: 
+      linear-gradient(180deg, #000000 0, rgba(0, 0, 0, 0) 200px, #000000 400px) no-repeat (left / 50%),
+      url('../images/backgrounds/qr-code-bg-left.jpg') no-repeat (left top / 50%),
+      url('../images/backgrounds/qr-code-bg-right.jpg') no-repeat (right top / 50%);
+
+    &__wrapper {
+      padding: 0;
+    }
+
+    &__left {
+      margin-top: 200px;
+    }
+
+    &__img-1 {
+      width: 220px;
+    }
+
+    &__img-2 {
+      width: 220px;
+      top: 150px;
+      right: -50px;
+    }
+  }
+
+  .generate {
+    padding-top: 230px;
+    padding-bottom: 120px;
+
+    &__img {
+      width: 220px;
+    }
+
+    &__top {
+      &::before {
+        top: -300px;
+        left: -90px;
+        width: 1300px;
+        height: 1300px;
+        background-size: 1300px 1300px ;
+      }
+
+      &::after {
+        top: 0;
+        width: 1400px;
+        height: 496px;
+        background-size: 1400px 496px ;
+      }
+    }
+
+    &__bottom {
+      margin-top: 50px;
+    }
+  }
+
+  .easier {
+    &__img {
+      width: 600px;
+    }
+
+    &__text-block {
+      padding: 15px 20px;
+      font-size: 18px;
+      line-height: 20px;
+      border-radius: 12px;
+      &_1 {
+        top: 280px;
+      }
+      &_2 {
+        top: 154px;
+      }
+      &_3 {
+        top: 400px;
+      }
+      &_4 {
+        top: 500px;
+      }
+    }
+  }
+
+  .screen {
+    padding: 150px 0;
+
+    &__img {
+      width: 730px;
+    }
+  }
+
+  .get-in-touch {
+    &__form {
+      margin-top: 50px;
+      width: 700px;
+      grid-gap: 18px;
+    }
+
+    &__inputs {
+      grid-gap: 18px;
+    }
+
+    &__input {
+      padding: 24px 18px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    &__btn {
+      margin-top: 30px;
+      padding: 20px 25px;
+      min-width: 280px;
+      border-radius: 10px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+
+  .download {
+    margin-bottom: 100px;
+
+    &__app-store {
+      margin-right: 40px;
+      width: 164px;
+      height: 52px;
+      background-size: 164px 52px;
+    }
+  
+    &__google-play {
+      width: 185px;
+      height: 52px;
+      background-size: 185px 52px;
+    }
+  }
+
+  .footer {
+    padding: 25px 0 76px 0;
+
+    &__text {
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+}

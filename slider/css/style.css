@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(58, 156, 221);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 700px;
+}
+
+.title {
+  margin: 40px 0;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* slider start */
+
+.slider {
+  display: block;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.slider__wrapper {
+  display: block;
+  overflow: hidden;
+}
+
+.slider__track {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.slider__item {
+  flex: 1 0 100%;
+  max-width: 700px;
+}
+
+.item-content {
+  margin: 0 20px;
+  display: block;
+  background-color: #ffffff;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 30px;
+  color: rgb(58, 156, 221);
+}
+
+/* slider end */
+
+/* slider buttons start */
+
+.slider__btn {
+  position: absolute;
+  padding: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 60px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.slider__btn:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.slider__btn::before {
+  position: absolute;
+  bottom: 20px;
+  content: '';
+  background-color: #ffffff;
+  width: 25px;
+  height: 7px;
+  border-radius: 4px;
+}
+
+.slider__btn::after {
+  position: absolute;
+  top: 20px;
+  content: '';
+  background-color: #ffffff;
+  width: 25px;
+  height: 7px;
+  border-radius: 4px;
+}
+
+.slider__btn_prev {
+  left: 0;
+}
+
+.slider__btn_prev::before {
+  left: 10px;
+  transform: rotate(45deg);
+}
+
+.slider__btn_prev::after {
+  left: 10px;
+  transform: rotate(-45deg);
+}
+
+.slider__btn_next {
+  right: 0;
+}
+
+.slider__btn_next::before {
+  right: 10px;
+  transform: rotate(-45deg);
+}
+
+.slider__btn_next::after {
+  right: 10px;
+  transform: rotate(45deg);
+}
+
+/* slider buttons end */
+
+/* slider dots start */
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+  transform: translateX(-50%);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  z-index: 3;
+}
+
+.dots__item {
+  margin: 0 15px;
+  background-color: rgb(0, 0, 0, 0.35);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dots__item:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.dots__item_active {
+  background-color: rgb(0, 0, 0);
+}
+
+/* slider dots end */
